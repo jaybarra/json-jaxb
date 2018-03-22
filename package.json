@@ -1,0 +1,11 @@
+{
+  "name": "json-jaxb",
+  "version": "1.0.0",
+  "description": "JavaScript class for simulating JAXB serialization with JavaScript classes",
+  "main": "index.js",
+  "author": "Jay Barra",
+  "license": "MIT",
+  "dependencies": {
+    "xml-js": "^1.6.2"
+  }
+}
