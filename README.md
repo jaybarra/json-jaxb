@@ -49,6 +49,23 @@ const myClassAsXML = myClass.toXML();
 console.debug(myClassAsXML);
 ```
 
+The expected output should resemble the following
+
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<myclass xsi:type="myclass">
+    <val>42</val>
+    <child>
+        <!-- otherClass should also extend XMLSerializable -->
+    </child>
+    <others></others>
+    <others></others>
+    <others></others>
+</myclass>
+```
+
+## Documentation
+
 [setXMLRootName](#)
 Default root name to use if not specified
 
