@@ -83,3 +83,6 @@ elements are supported
 |type | enum | The type of node the element represents|
 |name | string | a string for the element name when serializing  |
 |value | function | A getter function or value to get the value at the time of serialization|
+
+## 3rd Party Software and Attributions
+This project relies on (xml-js)[https://github.com/nashwaan/xml-js]
